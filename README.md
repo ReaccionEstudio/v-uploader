@@ -40,7 +40,7 @@ Multiple files upload with drag and drop
 ## Installation
 
 ```
-npm i v-uploader -S
+npm i "ReaccionEstudio/v-uploader"
 ```
 
 Include and install plugin in your `main.js` file.

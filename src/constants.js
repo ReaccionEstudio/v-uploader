@@ -143,7 +143,7 @@ const buildOptions = function(){
     return p;
 }
 
-const getI18n = language => (!language || language !== 'en') ? i18n.cn.ui : i18n.en.ui ;
+const getI18n = language => (!language || language !== 'en') ? i18n[language].ui : i18n.en.ui ;
 
 export {buildOptions};
 export {getI18n};

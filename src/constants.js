@@ -70,15 +70,15 @@ const i18n = {
       'typeError' : "El archivo {file} no tiene una extensión válida. Extensiones válidas： {extensions}",
       'sizeError' : "El tamaño del archivo  {file} excede el límite, la capacidad máxima permitida es： {sizeLimit}",
       'minSizeError' : "El tamaño del archivo {file} es inferiro al límite, el tamaño mínimo es： {minSizeLimit}.",
-      'emptyError' : "{file} 文件为空，请选择其他文件进行上传。",
-      'noFilesError' : "未选择任何文件进行上传",
-      'tooManyItemsError' : "太多文件 ({netItems}) 需要被上传，上传文件数量限制为： {itemLimit}个",
-      'maxHeightImageError' : "图片高度超过限制",
-      'maxWidthImageError' : "图片宽度超过限制",
-      'minHeightImageError' : "图片高度不足",
-      'minWidthImageError' : "图片宽度不足",
-      'retryFailTooManyItems' : "重试失败 - 您已达到文件数量上限。",
-      'onLeave' : "文件正在上传，若离开该页面，正在上传的文件将被取消"
+      'emptyError' : "El archivo {file} está vacío, seleccione otro archivo para subir.",
+      'noFilesError' : "No has seleccionado ningún archivo.",
+      'tooManyItemsError' : "No puedes subir más de {itemLimit} a la vez.",
+      'maxHeightImageError' : "La altura de la imagen es superior al límite permitido.",
+      'maxWidthImageError' : "La anchura de la imagen es superior al límite permitido.",
+      'minHeightImageError' : "La altura de la imagen es inferior al mínimo permitido.",
+      'minWidthImageError' : "La anchura de la imagen es inferior al mínimo permitido.",
+      'retryFailTooManyItems' : "Reintento fallido: has alcanzado el máximo de archivos permitidos.",
+      'onLeave' : "El archivo se está cargando. Si abandona esta página, la subida del archivo será cancelada."
     },
     text: {
       'failUpload' : 'Subida fallida',
@@ -87,7 +87,7 @@ const i18n = {
     ui: {
       thumbnail: 'Miniatura',
       choseFileButton: 'Selecciona un archivo/s',
-      dropHere: 'Arrastra los ficheros aquí ...',
+      dropHere: 'Arrastra los archivos aquí ...',
       done: 'Hecho',
       fileTypes: 'Extensiones permitidas',
       fileSizeLimit: 'Peso máximo por archivo'

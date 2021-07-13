@@ -9,6 +9,8 @@
   single file upload with image preview, multiple upload with drag and drop
 </p>
 
+<p align="center">Added Spanish translation.</p>
+
 <p align="center">
   <a href="https://www.npmjs.com/package/v-uploader"><img src="https://img.shields.io/npm/v/v-uploader.svg"></a>
   <a href="https://mit-license.org/"><img src="https://img.shields.io/badge/license-MIT-brightgreen.svg"></a>

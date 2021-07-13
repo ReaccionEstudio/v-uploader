@@ -64,7 +64,35 @@ const i18n = {
             fileTypes: 'file extensions',
             fileSizeLimit: 'file size limit'
         }
+    },
+    es: {
+    messages: {
+      'typeError' : "El archivo {file} no tiene una extensión válida. Extensiones válidas： {extensions}",
+      'sizeError' : "El tamaño del archivo  {file} excede el límite, la capacidad máxima permitida es： {sizeLimit}",
+      'minSizeError' : "El tamaño del archivo {file} es inferiro al límite, el tamaño mínimo es： {minSizeLimit}.",
+      'emptyError' : "{file} 文件为空，请选择其他文件进行上传。",
+      'noFilesError' : "未选择任何文件进行上传",
+      'tooManyItemsError' : "太多文件 ({netItems}) 需要被上传，上传文件数量限制为： {itemLimit}个",
+      'maxHeightImageError' : "图片高度超过限制",
+      'maxWidthImageError' : "图片宽度超过限制",
+      'minHeightImageError' : "图片高度不足",
+      'minWidthImageError' : "图片宽度不足",
+      'retryFailTooManyItems' : "重试失败 - 您已达到文件数量上限。",
+      'onLeave' : "文件正在上传，若离开该页面，正在上传的文件将被取消"
+    },
+    text: {
+      'failUpload' : 'Subida fallida',
+      'fileInputTitle' : 'Selecciona un archivo'
+    },
+    ui: {
+      thumbnail: 'Miniatura',
+      choseFileButton: 'Selecciona un archivo/s',
+      dropHere: 'Arrastra los ficheros aquí ...',
+      done: 'Hecho',
+      fileTypes: 'Extensiones permitidas',
+      fileSizeLimit: 'Peso máximo por archivo'
     }
+  }
 };
 
 const buildOptions = function(){

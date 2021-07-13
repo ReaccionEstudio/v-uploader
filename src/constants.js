@@ -143,7 +143,13 @@ const buildOptions = function(){
     return p;
 }
 
-const getI18n = language => (!language || language !== 'en') ? i18n[language].ui : i18n.en.ui ;
+const getI18n = function(language){
+  if(language && typeof i18n[language].ui !== 'undefined'){
+    return i18n[language].ui
+  }
+
+  return i18n.en.ui
+}
 
 export {buildOptions};
 export {getI18n};

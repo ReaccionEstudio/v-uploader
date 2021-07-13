@@ -47,7 +47,7 @@ Include and install plugin in your `main.js` file.
 
 ```js
 import Vue from 'vue'
-import Uploader from 'v-uploader'
+import Uploader from 'v-uploader/src/index'
 
 /**
  * v-uploader plugin global config

@@ -67,10 +67,10 @@ const i18n = {
     },
     es: {
     messages: {
-      'typeError' : "El archivo {file} no tiene una extensión válida. Extensiones válidas： {extensions}",
-      'sizeError' : "El tamaño del archivo  {file} excede el límite, la capacidad máxima permitida es： {sizeLimit}",
-      'minSizeError' : "El tamaño del archivo {file} es inferiro al límite, el tamaño mínimo es： {minSizeLimit}.",
-      'emptyError' : "El archivo {file} está vacío, seleccione otro archivo para subir.",
+      'typeError' : "El archivo \"{file}\" no tiene una extensión válida. Extensiones válidas： {extensions}",
+      'sizeError' : "El tamaño del archivo  \"{file}\" excede el límite, la capacidad máxima permitida es： {sizeLimit}",
+      'minSizeError' : "El tamaño del archivo \"{file}\" es inferiro al límite, el tamaño mínimo es： {minSizeLimit}.",
+      'emptyError' : "El archivo \"{file}\" está vacío, seleccione otro archivo para subir.",
       'noFilesError' : "No has seleccionado ningún archivo.",
       'tooManyItemsError' : "No puedes subir más de {itemLimit} a la vez.",
       'maxHeightImageError' : "La altura de la imagen es superior al límite permitido.",
@@ -134,6 +134,10 @@ const buildOptions = function(){
     if(this.language && this.language === 'cn'){
         p.messages = i18n.cn.messages;
         p.text = i18n.cn.text;
+    }
+    else if(this.language && this.language === 'es'){
+        p.messages = i18n.es.messages;
+        p.text = i18n.es.text;
     }
     if(this.callback && typeof this.callback === 'function'){
         p.callbacks.onComplete = (id,name,json,xhr) => {
